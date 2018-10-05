@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpinnerEx</string>
+    <string name="gender_prompt">성별 선택</string>
+    <string-array name="gender_array">
+        <item>여자</item>
+        <item>남자</item>
+    </string-array>
+</resources>
