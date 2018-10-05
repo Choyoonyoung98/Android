@@ -1,30 +1,23 @@
 package com.example.cho_yoonyoung.chattest.Activity;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
-import android.view.Menu;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.example.cho_yoonyoung.chattest.Adapter.ChatMessageAdapter;
-
-import com.example.cho_yoonyoung.chattest.Adapter.RecyclerViewAdapter;
 import com.example.cho_yoonyoung.chattest.Model.Chat;
 import com.example.cho_yoonyoung.chattest.Model.Emotion;
 import com.example.cho_yoonyoung.chattest.R;
-import com.example.cho_yoonyoung.chattest.Utils.ChatUtils;
 import com.example.cho_yoonyoung.chattest.Utils.Constant;
 import com.example.cho_yoonyoung.chattest.Utils.DateFormat;
-
 
 import java.util.ArrayList;
 
